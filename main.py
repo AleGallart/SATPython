@@ -4,7 +4,6 @@ import pandas
 filename = './tmdb_5000_movies.csv'
 data = pandas.read_csv(filename, header=0)
 
-
 ### Limpieza ###
 
 ## descriptivos del raw data set, chequeo nulos y duplicados
@@ -22,6 +21,4 @@ dataClean['overview'].fillna('null',inplace= True)
 #elimino las filas de los que tienen nulos y no son significativos, en este caso 2 filas de release_date y 1 de runtime
 dataClean.dropna(inplace= True)
 print(data1.isnull().sum())
-
-
 
