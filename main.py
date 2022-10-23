@@ -16,7 +16,8 @@ print(data.dtypes)
 #data.fillna('null',inplace= True) #el problema es que deberia remplazar los strings por un string y los numeros por numeros
 #print(data.isnull().sum())
 
-## duplicados
+## duplicados 
 print(data.duplicated().sum()) #no hya duplicados
 
 
+#agrego esto para pushear
