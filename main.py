@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 
 ### cargar data ###
 filename = './tmdb_5000_movies.csv'
-data = pandas.read_csv(filename, header=0)
-
+fileneme2 = './tmdb_5000_credits.csv'
+movies = pandas.read_csv(filename, header=0)
+credit = pandas.read.csv(filename2, header=0)
+data = movies.merge(credit, on = 'title')
 ### Limpieza ###
 
 ## descriptivos del raw data set, chequeo nulos y duplicados
