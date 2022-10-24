@@ -13,7 +13,7 @@ print(data.shape)
 print(data.head().transpose())
 print(data.dtypes) #concuerdan con el tipo de dato que quieren mostrar
 print(data.isnull().sum()) #hay nulos
-print(data.duplicated().sum())  #no hay duplicados
+print("La cantidad de duplicados es:" , data.duplicated().sum())  #no hay duplicados
 
 ##nulos
 dataClean = data
@@ -25,7 +25,7 @@ dataClean.dropna(inplace= True)
 print(dataClean.isnull().sum())
 
 
-## analisis y graficos
+### analisis y graficos ###
 
 
 top_movies = data.sort_values(by='revenue', ascending=False)
