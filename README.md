@@ -14,6 +14,7 @@ Como hipotesis, decidimos plantear ciertas caracteristicas de las peliculas como
 - Release_year (año de lanzamiento)
 
 Luego del analisis, buscaremos estar en condiciones de indentificar si efectivamente estos atributos de las peliculas tienen una influencia clara en el exito comercial o no.
+Finalmente se busca dar una recomendacion sobre como hacer una pelicula basada en estas caracteristicas.
 
 Analisis:
 
@@ -41,8 +42,20 @@ La siguiente parte de nuestro analisis consistio en establecer la relacion entre
 Por el lado del revenue junto con el rating de votacion, vemos en el grafico que existe una tendencia clara a que, a medida que el promedio de votacion sube, el revenue recaudado tambien. La baja pronunciada luego del vote_average 8 consideramos que ocurre por un tema de falta de datos, ya que no existen muchas peliculas con rating superior a 8.
 Podriamos decir que esto demuestra que, cuanto mas alto es el rating de la pelicula (puesto por el publico), mas dinero se espera que recaude finalmente.
 
+4.8
 En el grafico posterior, buscamos mostrar como va evolucionando el rating promedio de las peliculas a medida que pasan los años. En lineas generales, el voto promedio del publico ha ido bajando ha medida que pasaron los años. Esto significaria, continuando con el analisis del grafico anterior, que se espera que la recaudacion promedio por cada pelicula baje, al menos en el caso de que los ratings de las peliculas continuen su tendencia a bajar.
 
+Recomendacion final:
+
+Se recomienda hacer una pelicula con:
+1 - un budget aproximado de 200 millones $, no se sigue ya que en los extremos el intervalo de confianza es menor (aumenta la varianza), el obejtivo es quedarse dentro de un intervalo donde haya densidad de datos y buscando un valor alto de presupuesto.
+2 - Que la pelicula sea animada con una combinacion de aventura y fantasia.
+3 - Se buscara que la popularidad sea lo mas alta posible (este analizis no idaga en los mecanismos de como aumentar la popluaridad de la pelicula)
+4 - Se buscara hacer la pelicula con uno de los principales productores de la industria, en este caso el mayor productor es warner bros (como extension se deberia comparar los 15 mayores prodcutores en base al promedio por pelicula, queda como siguiente paso).
+5 - Incluir paises mas exoticos es una caracteristica presente en  peliculas de alto revenue. Por ejemplo inlcuir Republica Dominicana en la pelicula.
+6 - La pelicula debe durar entre 150 minutos y 200 minutos.
+7 - No preocuparse tanto por gustar a la critica valores entre 7 y 9 sn suficientes para lograr revenues maximos.
+8 - El rating promedio bajo en los ultimos años, con un pico positivo en 2020, se puede aprovechar esta subida de rating para hacer una pelicula con buen rating (suponiendo que seguimos el trend) con cuidado de no seguir la tendencia mas general que es negativa.
 
 Conclusión general, dificultades y próximos pasos: 
 
